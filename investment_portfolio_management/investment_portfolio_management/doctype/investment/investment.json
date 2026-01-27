@@ -1,0 +1,159 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{INV}-{YYYY}-{####}",
+ "creation": "2026-01-24 13:10:53.544272",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "investment_category",
+  "investment_type",
+  "column_break_mzdj",
+  "investment_company",
+  "investment_scheme",
+  "section_break_col7",
+  "broker",
+  "investment_date",
+  "amount_invested",
+  "units",
+  "price_per_unit",
+  "maturity_date",
+  "expected_roi",
+  "status",
+  "remarks",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_col7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "investment_category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Investment Category",
+   "options": "Investment Category",
+   "reqd": 1
+  },
+  {
+   "fieldname": "investment_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Investment Type",
+   "options": "Investment Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "investment_company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Investment Comapny",
+   "options": "Investment Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "investment_scheme",
+   "fieldtype": "Link",
+   "label": "Investment Scheme",
+   "options": "Investment Scheme"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Link",
+   "label": "Broker",
+   "options": "Broker"
+  },
+  {
+   "fieldname": "investment_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Investment Date ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amount_invested",
+   "fieldtype": "Currency",
+   "label": "Amount Invested",
+   "reqd": 1
+  },
+  {
+   "fieldname": "units",
+   "fieldtype": "Float",
+   "label": "Units/Quantity",
+   "reqd": 1
+  },
+  {
+   "fieldname": "price_per_unit",
+   "fieldtype": "Currency",
+   "label": "Price Per Unit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "maturity_date",
+   "fieldtype": "Date",
+   "label": "Maturity Date"
+  },
+  {
+   "fieldname": "expected_roi",
+   "fieldtype": "Float",
+   "label": "Expected ROI"
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nMatured\nClosed"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "column_break_mzdj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Investment",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-26 23:36:18.829964",
+ "modified_by": "Administrator",
+ "module": "Investment Portfolio Management",
+ "name": "Investment",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{category_name}",
+ "creation": "2026-01-23 17:15:35.354854",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_3nac",
+  "category_name",
+  "discription",
+  "risk_profile",
+  "is_active",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_3nac",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "category_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Category Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "discription",
+   "fieldtype": "Small Text",
+   "label": "Discription"
+  },
+  {
+   "fieldname": "risk_profile",
+   "fieldtype": "Select",
+   "label": "Risk Profile",
+   "options": "\nLow\nMedium\nHigh"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Investment Category",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-26 23:21:07.662064",
+ "modified_by": "Administrator",
+ "module": "Investment Portfolio Management",
+ "name": "Investment Category",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
