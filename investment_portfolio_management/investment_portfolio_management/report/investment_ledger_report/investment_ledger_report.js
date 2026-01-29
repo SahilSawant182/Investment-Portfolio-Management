@@ -10,7 +10,7 @@ frappe.query_reports["Investment Ledger Report"] = {
             "reqd": 0
         },
         {
-            "fieldname": "to_date",
+            "fieldname": "to_date", 
             "label": "To Date",
             "fieldtype": "Date",
             "default": frappe.datetime.get_today(),

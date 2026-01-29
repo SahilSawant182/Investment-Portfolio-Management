@@ -11,7 +11,7 @@ def execute(filters=None):
 
     return columns, data
 
-def get_columns():
+def get_columns(): 
     return [
         {"label": "Ledger Entry Name", "fieldname": "ledger_entry_name", "fieldtype": "Link", "options": "Investment Ledger Entry", "width": 180},
         {"label": "Investment Name", "fieldname": "investment_name", "fieldtype": "Link", "options": "Investment", "width": 150},
