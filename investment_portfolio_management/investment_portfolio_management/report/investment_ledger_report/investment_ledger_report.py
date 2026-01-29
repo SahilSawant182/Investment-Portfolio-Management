@@ -10,6 +10,7 @@ def execute(filters=None):
 
     return columns, data
 
+#Define the columns for the Investment Ledger Report
 def get_columns():
     return [
         {"label": "Ledger Entry Name", "fieldname": "ledger_entry_name", "fieldtype": "Link", "options": "Investment Ledger Entry", "width": 180},
