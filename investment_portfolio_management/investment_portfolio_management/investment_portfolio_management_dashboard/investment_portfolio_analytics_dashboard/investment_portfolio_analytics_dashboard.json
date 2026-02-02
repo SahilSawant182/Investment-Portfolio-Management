@@ -1,0 +1,49 @@
+{
+ "cards": [
+  {
+   "card": "Total Active Investments"
+  },
+  {
+   "card": "Total Active Amount Invested"
+  },
+  {
+   "card": "Total Debit Amount"
+  },
+  {
+   "card": "Total Credit Amount"
+  },
+  {
+   "card": "Top Performing Asset"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Investment Type Distribution",
+   "width": "Half"
+  },
+  {
+   "chart": "Portfolio Value Trend",
+   "width": "Half"
+  },
+  {
+   "chart": "Monthly Investment",
+   "width": "Half"
+  },
+  {
+   "chart": "Monthly Returns",
+   "width": "Half"
+  }
+ ],
+ "creation": "2026-01-29 11:52:45.233529",
+ "dashboard_name": "Investment Portfolio Analytics Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2026-01-30 15:25:29.287464",
+ "modified_by": "Administrator",
+ "module": "Investment Portfolio Management",
+ "name": "Investment Portfolio Analytics Dashboard",
+ "owner": "Administrator"
+}
