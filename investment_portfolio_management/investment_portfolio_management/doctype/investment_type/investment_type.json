@@ -12,13 +12,8 @@
   "requires_broker",
   "has_scheme",
   "has_maturity",
-<<<<<<< HEAD
   "default_risk",
   "amended_from"
-=======
-  "column_break_tyqf",
-  "default_risk"
->>>>>>> sahil-feature
  ],
  "fields": [
   {
@@ -64,7 +59,6 @@
    "options": "\nLow\nMedium\nHigh"
   },
   {
-<<<<<<< HEAD
    "fieldname": "amended_from",
    "fieldtype": "Link",
    "label": "Amended From",
@@ -73,20 +67,12 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
-=======
-   "fieldname": "column_break_tyqf",
-   "fieldtype": "Column Break"
->>>>>>> sahil-feature
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<< HEAD
  "modified": "2026-01-26 23:26:42.033304",
-=======
- "modified": "2026-01-27 14:21:59.641192",
->>>>>>> sahil-feature
  "modified_by": "Administrator",
  "module": "Investment Portfolio Management",
  "name": "Investment Type",

@@ -7,33 +7,15 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_gmt3",
-<<<<<<< HEAD
-  "investment",
-<<<<<<< HEAD
-=======
->>>>>>> 8abebcd (Added functionality of journal entry, fixed deposit, finance math logic)
   "exit_date",
   "exit_type",
-=======
->>>>>>> sahil-feature
   "units_sold",
   "exit_price",
   "exit_amount",
   "charges",
-<<<<<<< HEAD
   "net_amount",
   "broker",
   "pnl",
-<<<<<<< HEAD
-=======
-  "column_break_qjfm",
-  "net_amount",
-  "broker",
-  "pnl",
-  "exit_date",
-  "exit_type",
->>>>>>> sahil-feature
-=======
   "column_break_dwfm",
   "investment",
   "naming_series",
@@ -43,7 +25,6 @@
   "investment_account",
   "column_break_vxcx",
   "bank_account",
->>>>>>> 8abebcd (Added functionality of journal entry, fixed deposit, finance math logic)
   "section_break_owjv",
   "remarks",
   "amended_from"
@@ -51,17 +32,8 @@
  "fields": [
   {
    "fieldname": "section_break_gmt3",
-<<<<<<< HEAD
-<<<<<<< HEAD
-   "fieldtype": "Section Break"
-=======
-   "fieldtype": "Section Break",
-   "label": "Exit Investment"
->>>>>>> sahil-feature
-=======
    "fieldtype": "Section Break",
    "label": "Exit Data"
->>>>>>> 8abebcd (Added functionality of journal entry, fixed deposit, finance math logic)
   },
   {
    "fieldname": "investment",
@@ -117,10 +89,6 @@
    "read_only": 1
   },
   {
-<<<<<<< HEAD
-=======
-   "fetch_from": "investment.broker",
->>>>>>> sahil-feature
    "fieldname": "broker",
    "fieldtype": "Link",
    "label": "Broker",
@@ -191,17 +159,6 @@
    "label": "Amended Form",
    "options": "Return of Investment",
    "print_hide": 1,
-<<<<<<< HEAD
-   "read_only": 1,
-   "search_index": 1
-<<<<<<< HEAD
-=======
-  },
-  {
-   "fieldname": "column_break_qjfm",
-   "fieldtype": "Column Break"
->>>>>>> sahil-feature
-=======
    "read_only": 1
   },
   {
@@ -211,20 +168,11 @@
    "options": "Return of Investment",
    "print_hide": 1,
    "read_only": 1
->>>>>>> 8abebcd (Added functionality of journal entry, fixed deposit, finance math logic)
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
-<<<<<<< HEAD
- "links": [],
-<<<<<<< HEAD
- "modified": "2026-01-26 23:59:41.292994",
-=======
- "modified": "2026-01-27 15:51:09.716785",
->>>>>>> sahil-feature
-=======
  "links": [
   {
    "link_doctype": "Journal Entry",
@@ -232,7 +180,6 @@
   }
  ],
  "modified": "2026-01-30 12:51:42.066040",
->>>>>>> 8abebcd (Added functionality of journal entry, fixed deposit, finance math logic)
  "modified_by": "Administrator",
  "module": "Investment Portfolio Management",
  "name": "Exit Investment",

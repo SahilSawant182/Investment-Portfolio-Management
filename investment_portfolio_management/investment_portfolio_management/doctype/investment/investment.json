@@ -1,24 +1,30 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{INV}-{YYYY}-{####}",
+ "autoname": "format:{INV}-{YYYY}-{#####}",
  "creation": "2026-01-24 13:10:53.544272",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "investment_category",
   "investment_type",
+  "investment_date",
+  "investment_account",
   "column_break_mzdj",
   "investment_company",
   "investment_scheme",
+  "posting_date",
+  "company",
+  "bank_account",
   "section_break_col7",
   "broker",
-  "investment_date",
-  "amount_invested",
   "units",
   "price_per_unit",
+  "amount_invested",
   "maturity_date",
   "expected_roi",
+  "reference_jv",
   "status",
   "remarks",
   "amended_from"
@@ -124,13 +130,55 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "investment_account",
+   "fieldtype": "Link",
+   "label": "Investment Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "bank_account",
+   "fieldtype": "Link",
+   "label": "Bank Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "reference_jv",
+   "fieldtype": "Link",
+   "label": "Journal Entry",
+   "options": "Journal Entry",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
- "links": [],
- "modified": "2026-01-26 23:36:18.829964",
+ "links": [
+  {
+   "link_doctype": "Journal Entry",
+   "link_fieldname": "custom_investment"
+  }
+ ],
+ "modified": "2026-01-30 11:08:36.147766",
  "modified_by": "Administrator",
  "module": "Investment Portfolio Management",
  "name": "Investment",

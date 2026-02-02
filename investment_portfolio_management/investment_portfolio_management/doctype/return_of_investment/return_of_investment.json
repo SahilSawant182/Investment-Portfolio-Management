@@ -7,14 +7,21 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_fokl",
+  "naming_series",
   "investment",
   "return_date",
+  "posting_date",
   "column_break_pdsv",
   "amount",
   "return_type",
+  "company",
   "section_break_xxbp",
   "units_affected",
   "broker",
+  "account_section",
+  "investment_account",
+  "column_break_smxf",
+  "bank_account",
   "section_break_lunc",
   "remarks",
   "amended_from"
@@ -22,12 +29,7 @@
  "fields": [
   {
    "fieldname": "section_break_fokl",
-<<<<<<< HEAD
    "fieldtype": "Section Break"
-=======
-   "fieldtype": "Section Break",
-   "label": "ROI"
->>>>>>> sahil-feature
   },
   {
    "fieldname": "investment",
@@ -69,20 +71,12 @@
   },
   {
    "description": "If return is reinvested as units",
-<<<<<<< HEAD
-=======
-   "fetch_from": "investment.units",
->>>>>>> sahil-feature
    "fieldname": "units_affected",
    "fieldtype": "Float",
    "label": "Units Affected",
    "reqd": 1
   },
   {
-<<<<<<< HEAD
-=======
-   "fetch_from": "investment.broker",
->>>>>>> sahil-feature
    "fieldname": "broker",
    "fieldtype": "Link",
    "label": "Broker",
@@ -98,6 +92,13 @@
    "label": "Remarks"
   },
   {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date",
+   "read_only": 1
+  },
+  {
    "fieldname": "amended_from",
    "fieldtype": "Link",
    "label": "Amended From",
@@ -106,17 +107,50 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "account_section",
+   "fieldtype": "Section Break",
+   "label": "Account"
+  },
+  {
+   "fieldname": "investment_account",
+   "fieldtype": "Link",
+   "label": "Investment Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_smxf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_account",
+   "fieldtype": "Link",
+   "label": "Bank Account",
+   "options": "Account"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
- "links": [],
-<<<<<<< HEAD
- "modified": "2026-01-26 23:38:06.359983",
-=======
- "modified": "2026-01-27 16:11:21.111423",
->>>>>>> sahil-feature
+ "links": [
+  {
+   "link_doctype": "Journal Entry",
+   "link_fieldname": "custom_return_of_investment"
+  }
+ ],
+ "modified": "2026-01-30 12:50:16.740974",
  "modified_by": "Administrator",
  "module": "Investment Portfolio Management",
  "name": "Return of Investment",

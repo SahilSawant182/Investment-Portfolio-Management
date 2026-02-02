@@ -8,16 +8,10 @@
  "field_order": [
   "section_break_3nac",
   "category_name",
-<<<<<<< HEAD
   "discription",
   "risk_profile",
   "is_active",
   "amended_from"
-=======
-  "risk_profile",
-  "is_active",
-  "discription"
->>>>>>> sahil-feature
  ],
  "fields": [
   {
@@ -48,7 +42,6 @@
    "fieldname": "is_active",
    "fieldtype": "Check",
    "label": "Is Active"
-<<<<<<< HEAD
   },
   {
    "fieldname": "amended_from",
@@ -59,18 +52,12 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
-=======
->>>>>>> sahil-feature
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<< HEAD
  "modified": "2026-01-26 23:21:07.662064",
-=======
- "modified": "2026-01-27 15:53:42.515317",
->>>>>>> sahil-feature
  "modified_by": "Administrator",
  "module": "Investment Portfolio Management",
  "name": "Investment Category",

@@ -10,27 +10,15 @@
   "broker_name",
   "broker_type",
   "sebi_reg_no",
-<<<<<<< HEAD
   "email",
   "phone",
   "is_active",
   "amended_from"
-=======
-  "column_break_odea",
-  "email",
-  "phone",
-  "is_active"
->>>>>>> sahil-feature
  ],
  "fields": [
   {
    "fieldname": "section_break_lrcm",
-<<<<<<< HEAD
    "fieldtype": "Section Break"
-=======
-   "fieldtype": "Section Break",
-   "label": "Add Broker"
->>>>>>> sahil-feature
   },
   {
    "fieldname": "broker_type",
@@ -62,7 +50,6 @@
    "label": "Is Active"
   },
   {
-<<<<<<< HEAD
    "fieldname": "amended_from",
    "fieldtype": "Link",
    "label": "Amended From",
@@ -73,31 +60,18 @@
    "search_index": 1
   },
   {
-=======
->>>>>>> sahil-feature
    "fieldname": "broker_name",
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Broker Name",
    "reqd": 1,
    "unique": 1
-<<<<<<< HEAD
-=======
-  },
-  {
-   "fieldname": "column_break_odea",
-   "fieldtype": "Column Break"
->>>>>>> sahil-feature
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<< HEAD
  "modified": "2026-01-26 23:30:02.892975",
-=======
- "modified": "2026-01-27 15:50:45.545366",
->>>>>>> sahil-feature
  "modified_by": "Administrator",
  "module": "Investment Portfolio Management",
  "name": "Broker",

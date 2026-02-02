@@ -10,26 +10,14 @@
   "company_name",
   "company_type",
   "registration_no",
-<<<<<<< HEAD
   "website",
   "country",
   "is_active"
-=======
-  "is_active",
-  "column_break_grpg",
-  "website",
-  "country"
->>>>>>> sahil-feature
  ],
  "fields": [
   {
    "fieldname": "section_break_56t8",
-<<<<<<< HEAD
    "fieldtype": "Section Break"
-=======
-   "fieldtype": "Section Break",
-   "label": "Add Investment Company"
->>>>>>> sahil-feature
   },
   {
    "fieldname": "company_name",
@@ -66,23 +54,12 @@
    "fieldname": "is_active",
    "fieldtype": "Check",
    "label": "Is Active"
-<<<<<<< HEAD
-=======
-  },
-  {
-   "fieldname": "column_break_grpg",
-   "fieldtype": "Column Break"
->>>>>>> sahil-feature
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<< HEAD
  "modified": "2026-01-26 23:27:52.736748",
-=======
- "modified": "2026-01-27 15:53:01.003578",
->>>>>>> sahil-feature
  "modified_by": "Administrator",
  "module": "Investment Portfolio Management",
  "name": "Investment Company",

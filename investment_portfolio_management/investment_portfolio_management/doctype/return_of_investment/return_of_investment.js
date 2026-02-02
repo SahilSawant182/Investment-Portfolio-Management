@@ -39,7 +39,9 @@ frappe.ui.form.on("Return of Investment", {
                     frm.set_value('broker', doc.broker);
                 });
 
-     
+            // Fetch balance units from Ledger?
+            // "units affected should automatically fetched from that investment"
+            // The user might mean total units or balance units. Let's fetch Balance Units from last ledger entry.
             frappe.call({
                 method: "frappe.client.get_list",
                 args: {

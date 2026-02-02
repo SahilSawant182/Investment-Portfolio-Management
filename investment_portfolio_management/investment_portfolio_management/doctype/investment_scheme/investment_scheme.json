@@ -10,27 +10,15 @@
   "scheme_name",
   "investment_company",
   "investment_type",
-<<<<<<< HEAD
   "scheme_code",
   "expense_ratio",
   "is_active",
   "amended_from"
-=======
-  "column_break_onhp",
-  "scheme_code",
-  "expense_ratio",
-  "is_active"
->>>>>>> sahil-feature
  ],
  "fields": [
   {
    "fieldname": "section_break_jpah",
-<<<<<<< HEAD
    "fieldtype": "Section Break"
-=======
-   "fieldtype": "Section Break",
-   "label": "Investment Scheme"
->>>>>>> sahil-feature
   },
   {
    "fieldname": "scheme_name",
@@ -72,7 +60,6 @@
    "label": "Is Active"
   },
   {
-<<<<<<< HEAD
    "fieldname": "amended_from",
    "fieldtype": "Link",
    "label": "Amended From",
@@ -81,20 +68,12 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
-=======
-   "fieldname": "column_break_onhp",
-   "fieldtype": "Column Break"
->>>>>>> sahil-feature
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<< HEAD
  "modified": "2026-01-26 23:31:08.788254",
-=======
- "modified": "2026-01-27 15:52:03.305057",
->>>>>>> sahil-feature
  "modified_by": "Administrator",
  "module": "Investment Portfolio Management",
  "name": "Investment Scheme",
